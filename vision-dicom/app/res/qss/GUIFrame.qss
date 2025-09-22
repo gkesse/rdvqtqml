@@ -1,0 +1,107 @@
+#minimizeButton
+{
+    image: url(:/img/minimize-button1.png);
+}
+
+#minimizeButton, #maximizeButton
+{
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+#minimizeButton:hover, #maximizeButton:hover
+{
+    border-style: none;
+    background-color:  rgba(128, 128, 128, 0.5);
+}
+
+#minimizeButton:pressed, #maximizeButton:pressed
+{
+  	border-style: none;
+	background-color: rgba(128, 128, 128, 0.6);
+}
+
+#closeButton
+ {
+    image: url(:/img/close-button1.png);
+    background-color: transparent;
+    border-radius: 0px;
+}
+
+#closeButton:hover {
+    image: url(:/img/close-button2.png);
+    border-style: none;
+    background-color: #e81123;
+}
+
+#closeButton:pressed {
+    image: url(:/img/close-button1.png);
+    border-style: none;
+    background-color: #8c0a15;
+}
+
+#labelTitle
+{
+    font-weight: bold;
+    color:  white;
+}
+
+#GUIFrame
+{
+	background-color: #121212;
+}
+
+#widgetTopBar
+{
+	background-color: #121212;
+}
+
+#icon
+{
+	margin-top: 5px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+QScrollBar:vertical {
+    background: #2f3136;
+    width: 5px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #888;
+}
+
+QScrollBar::handle:hover:vertical {
+  background: #555;
+}
+
+QScrollBar::add-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    height: 0px;
+    background: none;
+}
+QMenuBar
+{
+    background-color: #bb86fc;
+    color : white;
+}
+
+QMenu
+{
+    background-color:#2a2a2c;
+    color : white;
+}
+
+QMenuBar::item:selected,
+QMenu::item:selected {
+	background-color:  rgba(128, 128, 128, 0.5);
+}

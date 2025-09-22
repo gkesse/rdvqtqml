@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="app-logo.png">res/img/app-logo.png</file>
+        <file alias="app-icon.png">res/img/app-icon.png</file>
+        <file alias="maximize-button1.png">res/img/maximize-button1.png</file>
+        <file alias="maximize-button2.png">res/img/maximize-button2.png</file>
+        <file alias="minimize-button1.png">res/img/minimize-button1.png</file>
+        <file alias="close-button1.png">res/img/close-button1.png</file>
+        <file alias="close-button2.png">res/img/close-button2.png</file>
+    </qresource>
+</RCC>
